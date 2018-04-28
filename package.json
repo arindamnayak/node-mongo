@@ -1,0 +1,28 @@
+{
+  "name": "mongo-express-db",
+  "version": "1.0.0",
+  "description": "sample app with node, mongo, express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "express"
+  ],
+  "author": "Arindam Nayak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
